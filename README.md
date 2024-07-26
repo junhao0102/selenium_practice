@@ -1,0 +1,14 @@
+- **點擊滑鼠右鍵**: `context_click()`
+- **雙擊滑鼠左鍵**: `double_click()`
+- **按著滑鼠左鍵不放**: `click_and_hold()`
+- **放開滑鼠左鍵**: `release()`
+- **拖曳到某個元素後放開**: `drag_and_drop(source, target)`
+- **拖曳到某個座標後放開**: `drag_and_drop_by_offset(source, xoffset, yoffset)`
+- **按下鍵盤上某個按鍵**: `key_down(value)`
+- **放開鍵盤上某個按鍵**: `key_up(value)`
+- **滑鼠指標從當前位置移動到某個座標**: `move_by_offset(xoffset, yoffset)`
+- **滑鼠指標移動到某個元素**: `move_to_element(to_element)`
+- **移動到某元素附近座標位置**: `move_to_element_with_offset(to_element, xoffset, yoffset)`
+- **執行當前這個 ActionChain 的動作**: `perform()`
+- **在元素上輸入值 (例如: input)**: `send_keys(value)`
+- **在指定的元素上輸入值**: `send_keys_to_element(element, value)`
